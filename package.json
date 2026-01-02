@@ -1,0 +1,13 @@
+{
+  "name": "veil-identity-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cross-chain identity protocol bridging Casper Network to EVM chains",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean"
+  },
+  "keywords": ["casper", "ethereum", "identity", "cross-chain", "attestation"],
+  "license": "MIT"
+}
