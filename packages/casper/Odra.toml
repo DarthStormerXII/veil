@@ -1,0 +1,22 @@
+[[contracts]]
+fqn = "veil_attestation::veil_attestation::VeilAttestation"
+
+# Localnet configuration (default for cargo odra deploy)
+[livenet]
+chain_name = "casper-net-1"
+node_address = "http://localhost:11101/rpc"
+secret_key_path = "../../localnet/keys/faucet/secret_key.pem"
+
+# Testnet configuration
+# Usage: cargo odra deploy -b VeilAttestation -n casper-testnet
+[livenet.casper-testnet]
+chain_name = "casper-test"
+node_address = "https://node.testnet.casper.network/rpc"
+secret_key_path = "../../keys/test_secret_key.pem"
+
+# Mainnet configuration (for future use)
+# Usage: cargo odra deploy -b VeilAttestation -n casper-mainnet
+[livenet.casper-mainnet]
+chain_name = "casper"
+node_address = "https://node.mainnet.casper.network/rpc"
+secret_key_path = "./keys/mainnet_secret_key.pem"
