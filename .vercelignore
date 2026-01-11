@@ -1,0 +1,14 @@
+# Ignore large folders
+packages/
+localnet/
+keys/
+*.wasm
+target/
+**/node_modules/
+.git/
+*.pem
+apps/web/node_modules/
+apps/web/.next/
+**/.next/
+**/dist/
+**/*.log
