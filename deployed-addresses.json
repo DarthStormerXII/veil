@@ -1,0 +1,18 @@
+{
+  "base-sepolia": {
+    "VeilVerifier": "0x0a3A0d3407acb40D11af9539a1c016E44deca4A0",
+    "casperSigner": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  "casper-testnet": {
+    "VeilAttestation": "",
+    "signerAddress": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  "casper-localnet": {
+    "VeilAttestation": "contract-package-51c2d7ae1adb41abeab6ea975d376c5a3c95323cb514c08112adbbea95b5501f",
+    "signerAddress": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+  },
+  "anvil-local": {
+    "VeilVerifier": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "casperSigner": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+  }
+}
